@@ -1,5 +1,5 @@
 
-<link rel="stylesheet" href="../../Assets/css/headerStyle.css">
+<link rel="stylesheet" href="../../assets/css/headerStyle.css">
 <header class="u__background-color-gray">
     <div class="u__header-top">
         <div class="u__title u--font-weight-text u__font-family-text">Live for passion</div>

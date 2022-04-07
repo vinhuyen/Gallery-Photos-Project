@@ -7,8 +7,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>wishlist</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
-    <link rel="stylesheet" href="../../Assets/css/reset.css">
-    <link rel="stylesheet" href="../../Assets/css/wishlistStyle.css">
+    <link rel="stylesheet" href="../../assets/css/reset.css">
+    <link rel="stylesheet" href="../../assets/css/wishlistStyle.css">
 </head>
 <body>
 <header id="header__wishlist">
@@ -28,7 +28,7 @@
         </div>
         <div class="btn__go__new_posts_wrapper">
             <div class="btn__go__news__post">
-                <a href="./story.php">new posts</a>
+                <a href="stories.php">new posts</a>
             </div>
 
         </div>

@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>new stories</title>
 <!--    <link rel="stylesheet" href="../../Assets/css/reset.css">-->
-    <link rel="stylesheet" href="../../Assets/css/storiesStyle.css">
+    <link rel="stylesheet" href="../../assets/css/storiesStyle.css">
 </head>
 <body id="uyen">
 <?php include "../Page/header.php"?>
