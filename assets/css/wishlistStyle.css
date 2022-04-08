@@ -11,6 +11,8 @@
     --width-btn-nav: 260px;
     --font-size-btn-text: 20px;
     --height-btn-nav: 55px;
+    --transform-thumbnail-img: scale(1.12);
+
 }
 
 
@@ -130,7 +132,7 @@
 
 }
 #uyen__wishlist .wishlist__post_thumbnail:hover img{
-    transform: scale(1.148);
+    transform: scale(1.12);
     box-shadow: 0 0 10px 5px #E2D9CE;
     transition: 1s;
 }
@@ -239,6 +241,7 @@
         --width-btn-nav: 150px;
         --font-size-btn-text: 16px;
         --height-btn-nav: 40px;
+        --transform-thumbnail-img: scale(1.14);
     }
 
 }
@@ -253,6 +256,8 @@
         --font-size-btn-text: 13px;
         --height-btn-nav: 32px;
         --img-size-wpt: calc(700px/3.5);
+        /*--transform-thumbnail-img: scale(1.17);*/
+
 
     }
     #uyen__wishlist .intro__title{
