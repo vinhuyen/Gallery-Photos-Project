@@ -1,6 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=BioRhyme:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Zen+Tokyo+Zoo&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=BioRhyme:wght@400;700&family=Righteous&display=swap');
 :root{
     --main-color-wishlish: #A3A1A3;
     --fs-enjoy-title: 210px;
@@ -31,7 +30,7 @@
 
 #uyen__wishlist .intro__title
 {
-    font-family: 'BioRhyme', serif;
+    font-family: 'Righteous', cursive;
     font-size: var(--fs-enjoy-title);
     text-transform: uppercase;
     font-weight: 400;
@@ -40,7 +39,7 @@
     text-transform: uppercase;
     background-image: linear-gradient(
             -225deg,
-            black 0%,
+            #0f99a4 0%,
             darkslategray 29%,
             #9CD08E 67%,
             #F9A04E 100%
@@ -102,11 +101,17 @@
 }
 #uyen__wishlist .wishlist__post__wrapper{
     overflow-x: hidden;
+    transition: 0.5s;
 }
 #uyen__wishlist .wishlist__post{
+    width: calc((var(--img-size-wpt) + 60px)*5);
     display: flex;
     gap: 65px;
     padding: 65px 0;
+    animation: scroll 40s linear infinite;
+}
+#uyen__wishlist .wishlist__post:hover{
+    animation-play-state: paused;
 }
 #uyen__wishlist .wishlist__post_thumbnail img{
     width: var(--img-size-wpt);
@@ -115,6 +120,11 @@
     margin: 30px;
 
 }
+#uyen__wishlist .wishlist__post_thumbnail:hover img{
+    transform: scale(1.148);
+    box-shadow: 0 0 10px 5px #E2D9CE;
+    transition: 1s;
+}
 #uyen__wishlist .wishlist__post_thumbnail {
     width: calc(var(--img-size-wpt) + 60px);
     background-color: #E2D9CE;
@@ -122,20 +132,30 @@
     flex-direction: column;
     text-align: center;
     position: relative;
-    /*border-bottom-right-radius: 10px;*/
 }
+
 #uyen__wishlist .post__title{
     padding-bottom: 30px;
+    color: black;
 }
 #uyen__wishlist .icon__liked{
     position: absolute;
     right: -5%;
     bottom: -5%;
     font-size: calc(var(--img-size-wpt)/8.5);
-    color: #F9A04E;
+    color: #0f99a4;
 }
 @keyframes textclip {
     to {
         background-position: 200% center;
+    }
+}
+
+@keyframes scroll{
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(calc((var(--img-size-wpt) + 60px)*(-2.5)))
     }
 }

@@ -20,7 +20,7 @@
 </header>
 <main id="uyen__wishlist">
     <div class="intro__title">
-        enjoy it!!
+        enjoy it !!!
     </div>
     <div class="button__nav">
         <div class="btn__go__homepage">
@@ -30,38 +30,49 @@
             <div class="btn__go__news__post">
                 <a href="stories.php">new posts</a>
             </div>
-
         </div>
     </div>
     <section class="wishlist__post__wrapper">
         <div class="wishlist__post">
             <div class="wishlist__post_thumbnail">
-                <img src="https://images.unsplash.com/photo-1649255862406-2f24f6e35745?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80" alt="">
-                <div class="post__title">VIETNAM, MOSAIC OF CONTRASTS III</div>
-                <div class="icon__liked"><i class="fa-solid fa-heart"></i></div>
+                <a href="">
+                    <img src="https://images.unsplash.com/photo-1649255862406-2f24f6e35745?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80" alt="">
+                    <div class="post__title">VIETNAM, MOSAIC OF CONTRASTS III</div>
+                    <div class="icon__liked"><i class="fa-solid fa-heart"></i></div>
+                </a>
             </div>
             <div class="wishlist__post_thumbnail">
-                <img src="https://images.unsplash.com/photo-1649255862406-2f24f6e35745?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80" alt="">
-                <div class="post__title">VIETNAM, MOSAIC OF CONTRASTS III</div>
-                <div class="icon__liked"><i class="fa-solid fa-heart"></i></div>
+                <a href="">
+                    <img src="https://images.unsplash.com/photo-1649255862406-2f24f6e35745?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80" alt="">
+                    <div class="post__title">VIETNAM, MOSAIC OF CONTRASTS III</div>
+                    <div class="icon__liked"><i class="fa-solid fa-heart"></i></div>
+                </a>
             </div>
             <div class="wishlist__post_thumbnail">
-                <img src="https://images.unsplash.com/photo-1649255862406-2f24f6e35745?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80" alt="">
-                <div class="post__title">VIETNAM, MOSAIC OF CONTRASTS III</div>
-                <div class="icon__liked"><i class="fa-solid fa-heart"></i></div>
+                <a href="">
+                    <img src="https://images.unsplash.com/photo-1649255862406-2f24f6e35745?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80" alt="">
+                    <div class="post__title">VIETNAM, MOSAIC OF CONTRASTS III</div>
+                    <div class="icon__liked"><i class="fa-solid fa-heart"></i></div>
+                </a>
             </div>
             <div class="wishlist__post_thumbnail">
-                <img src="https://images.unsplash.com/photo-1649255862406-2f24f6e35745?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80" alt="">
-                <div class="post__title">VIETNAM, MOSAIC OF CONTRASTS III</div>
-                <div class="icon__liked"><i class="fa-solid fa-heart"></i></div>
+                <a href="">
+                    <img src="https://images.unsplash.com/photo-1649255862406-2f24f6e35745?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80" alt="">
+                    <div class="post__title">VIETNAM, MOSAIC OF CONTRASTS III</div>
+                    <div class="icon__liked"><i class="fa-solid fa-heart"></i></div>
+                </a>
             </div>
             <div class="wishlist__post_thumbnail">
-                <img src="https://images.unsplash.com/photo-1649255862406-2f24f6e35745?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80" alt="">
-                <div class="post__title">VIETNAM, MOSAIC OF CONTRASTS III</div>
-                <div class="icon__liked"><i class="fa-solid fa-heart"></i></div>
+                <a href="">
+                    <img src="https://images.unsplash.com/photo-1649255862406-2f24f6e35745?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80" alt="">
+                    <div class="post__title">VIETNAM, MOSAIC OF CONTRASTS III</div>
+                    <div class="icon__liked"><i class="fa-solid fa-heart"></i></div>
+                </a>
             </div>
         </div>
     </section>
 </main>
+<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+<script src="../../assets/js/stories-js.js"></script>
 </body>
 </html>
