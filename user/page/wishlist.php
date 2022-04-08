@@ -71,6 +71,25 @@
             </div>
         </div>
     </section>
+<!--    <section class="most__liked">-->
+<!--        <div class="most__liked__wrapper">-->
+<!--            <div class="liked__amount">-->
+<!--                abc-->
+<!--            </div>-->
+<!--            <div class="most__liked_image">-->
+<!--                <img src="https://images.unsplash.com/photo-1513872839850-a5b59d5603b4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=765&q=80" alt="">-->
+<!--            </div>-->
+<!--            <div class="most__liked__info">-->
+<!--                <div class="first__line">-->
+<!--                    <p class="left__elementor text__liked__style">the</p>-->
+<!--                    <p class="middle__elementor text__liked__style">most</p>-->
+<!--                    <p class="right__elementor text__liked__style">liked</p>-->
+<!--                </div>-->
+<!--                <div class="second__line text__liked__style">photo</div>-->
+<!--                <div class="third__line text__liked__style">photo</div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </section>-->
 </main>
 <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
 <script src="../../assets/js/stories-js.js"></script>
