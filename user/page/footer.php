@@ -18,7 +18,9 @@
             <div class="left box">
                 <div class="upper">
                     <div class="topic">About me</div>
-                    <p>Ben Quick spent several years exploring the deserts and mountain ranges in the Western US before settling down, becoming a proud father, and earning a BS in natural resource management and an MS in American Studies from Utah State
+                    <p>Ben Quick spent several years exploring the deserts and mountain ranges in the Western US before
+                        settling down, becoming a proud father, and earning a BS in natural resource management and an
+                        MS in American Studies from Utah State
                         University in Logan, Utah. </p>
                 </div>
                 <div class="lower">
