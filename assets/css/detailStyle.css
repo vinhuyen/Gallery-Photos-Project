@@ -1,0 +1,357 @@
+                                                                                                                   :root {
+                                                                                                                      --c--backgroundcoloer--pages: #E5E5E5;
+                                                                                                                      --c--bacgroundcolor--ofitem: #E2D9CE;
+                                                                                                                      --c--bacgroundcolo--btn--: #4ea685;
+                                                                                                                      --c--grip--item: 70% 30%;
+                                                                                                                      --c--fonsize--header: 30px;
+                                                                                                                      --c--fontsize--conten--reponsive: 15px;
+                                                                                                                      --c--fontsize--name--reponsive: 20px;
+                                                                                                                      --c--fonsize--name--detail: 25px;
+                                                                                                                      --c--fonsize--content--detail: 20px;
+                                                                                                                  }
+                                                                                                                  
+                                                                                                                  .c__container_detail {
+                                                                                                                      width: 80%;
+                                                                                                                      height: auto;
+                                                                                                                      margin: 2% auto;
+                                                                                                                      background-color: var(--c--backgroundcoloer--pages);
+                                                                                                                  }
+                                                                                                                  
+                                                                                                                  .c__container {
+                                                                                                                      width: 80%;
+                                                                                                                      height: auto;
+                                                                                                                      margin: 2% auto;
+                                                                                                                      background-color: var(--c--backgroundcoloer--pages);
+                                                                                                                  }
+                                                                                                                  /* Slide */
+                                                                                                                  
+                                                                                                                  .c__active__photo label {
+                                                                                                                      margin: 0 20px;
+                                                                                                                  }
+                                                                                                                  
+                                                                                                                  .c__no-pad {
+                                                                                                                      display: flex;
+                                                                                                                      justify-content: space-evenly;
+                                                                                                                      margin: 0 auto;
+                                                                                                                      width: 60%;
+                                                                                                                  }
+                                                                                                                  
+                                                                                                                  #c__gallery-box {
+                                                                                                                      position: relative;
+                                                                                                                      overflow: hidden;
+                                                                                                                      border: 1px solid #CCC;
+                                                                                                                      width: 80%;
+                                                                                                                      margin: 0 auto;
+                                                                                                                  }
+                                                                                                                  
+                                                                                                                  #c__caption {
+                                                                                                                      text-align: center;
+                                                                                                                      line-height: 3;
+                                                                                                                      margin: 0;
+                                                                                                                      background-color: var(--c--bacgroundcolo--btn--);
+                                                                                                                  }
+                                                                                                                  
+                                                                                                                  #c__gallery-count {
+                                                                                                                      display: inline-block;
+                                                                                                                      position: absolute;
+                                                                                                                      top: 1%;
+                                                                                                                      right: 1%;
+                                                                                                                      padding: 15px;
+                                                                                                                      width: 70px;
+                                                                                                                      text-decoration: none;
+                                                                                                                      text-align: center;
+                                                                                                                      border-radius: 49%;
+                                                                                                                  }
+                                                                                                                  /* like */
+                                                                                                                  
+                                                                                                                  #c__gallery-icon {
+                                                                                                                      position: absolute;
+                                                                                                                      bottom: 2%;
+                                                                                                                      right: 1%;
+                                                                                                                      background-color: none;
+                                                                                                                      z-index: 20;
+                                                                                                                  }
+                                                                                                                  
+                                                                                                                  #c__gallery-icon button {
+                                                                                                                      border: unset;
+                                                                                                                      outline: 0;
+                                                                                                                      font-size: 18px;
+                                                                                                                      cursor: pointer;
+                                                                                                                      color: #000000;
+                                                                                                                      padding: 5px 10px;
+                                                                                                                      border-radius: 13px;
+                                                                                                                  }
+                                                                                                                  
+                                                                                                                  #c__gallery-icon button:hover {
+                                                                                                                      color: #0571ed;
+                                                                                                                  }
+                                                                                                                  
+                                                                                                                  #c__gallery-icon button:hover:last-child {
+                                                                                                                      color: red;
+                                                                                                                  }
+                                                                                                                  
+                                                                                                                  #c__gallery-icon button.liked {
+                                                                                                                      color: #0571ed;
+                                                                                                                  }
+                                                                                                                  
+                                                                                                                  #c__gallery-icon button.wishlisted {
+                                                                                                                      color: red;
+                                                                                                                  }
+                                                                                                                  
+                                                                                                                  #c__gallery-icon button.liked i,
+                                                                                                                  #c__gallery-icon button.wishlisted i {
+                                                                                                                      animation: anim 0.5s ease-in-out;
+                                                                                                                      -webkit-animation: anim 0.5s ease-in-out;
+                                                                                                                  }
+                                                                                                                  
+                                                                                                                  @keyframes anim {
+                                                                                                                      100% {
+                                                                                                                          transform: rotate(-15deg) scale(1.3);
+                                                                                                                          -webkit-transform: rotate(-15deg) scale(1.3);
+                                                                                                                          -moz-transform: rotate(-15deg) scale(1.3);
+                                                                                                                          -ms-transform: rotate(-15deg) scale(1.3);
+                                                                                                                          -o-transform: rotate(-15deg) scale(1.3);
+                                                                                                                          filter: blur(0.5px);
+                                                                                                                          -webkit-filter: blur(0.5px);
+                                                                                                                      }
+                                                                                                                  }
+                                                                                                                  /* ===================== */
+                                                                                                                  
+                                                                                                                  #c__slide_0011 {
+                                                                                                                      display: flex;
+                                                                                                                      width: 100%;
+                                                                                                                      height: auto;
+                                                                                                                      padding: 10px;
+                                                                                                                      background-repeat: no-repeat;
+                                                                                                                      background-position: center;
+                                                                                                                      transition: 0.3s ease-in-out;
+                                                                                                                  }
+                                                                                                                  
+                                                                                                                  #c__gallery-link img {
+                                                                                                                      width: 100%;
+                                                                                                                      transition: all 1s;
+                                                                                                                  }
+                                                                                                                  
+                                                                                                                  #c__gallery-link:hover img {
+                                                                                                                      -webkit-transform: scale(1.2);
+                                                                                                                      transform: scale(1.2);
+                                                                                                                  }
+                                                                                                                  
+                                                                                                                  #c__gallery-link {
+                                                                                                                      overflow: hidden;
+                                                                                                                  }
+                                                                                                                  
+                                                                                                                  .c__gallery-thumbnails {
+                                                                                                                      margin-top: 20px;
+                                                                                                                      height: auto;
+                                                                                                                      overflow: hidden;
+                                                                                                                      width: 100%;
+                                                                                                                      justify-content: space-evenly;
+                                                                                                                  }
+                                                                                                                  
+                                                                                                                  .c__gallery-thumbnails img {
+                                                                                                                      border-radius: 50%;
+                                                                                                                      width: 10%;
+                                                                                                                      cursor: pointer;
+                                                                                                                      padding: 0;
+                                                                                                                      filter: grayscale(1);
+                                                                                                                      min-height: 25px;
+                                                                                                                      margin: 0 auto;
+                                                                                                                  }
+                                                                                                                  
+                                                                                                                  .c__gallery-thumbnails img:hover {
+                                                                                                                      filter: none !important;
+                                                                                                                  }
+                                                                                                                  /*  overlay*/
+                                                                                                                  /* .C__overlay {
+                                                                                                                     position: absolute;
+                                                                                                                     bottom: 0;
+                                                                                                                     left: 0;
+                                                                                                                     right: 0;
+                                                                                                                     background-color: #008CBA;
+                                                                                                                     overflow: hidden;
+                                                                                                                     width: 100%;
+                                                                                                                     height: 0;
+                                                                                                                     transition: .5s ease;
+                                                                                                                 }
+                                                                                                                 
+                                                                                                                 #c__caption {
+                                                                                                                     color: white;
+                                                                                                                     font-size: 20px;
+                                                                                                                     position: absolute;
+                                                                                                                     top: 50%;
+                                                                                                                     left: 50%;
+                                                                                                                     -webkit-transform: translate(-50%, -50%);
+                                                                                                                     -ms-transform: translate(-50%, -50%);
+                                                                                                                     transform: translate(-50%, -50%);
+                                                                                                                     text-align: center;
+                                                                                                                 }
+                                                                                                                 
+                                                                                                                 #c__gallery-box:hover .C__overlay {
+                                                                                                                     height: 20%;
+                                                                                                                 } */
+                                                                                                                  /* /* tab *=================================================================================/ */
+                                                                                                                  
+                                                                                                                  .--c--mytabs input[type="radio"] {
+                                                                                                                      display: none;
+                                                                                                                  }
+                                                                                                                  
+                                                                                                                  .--c--mytabs label {
+                                                                                                                      padding: 25px 40px;
+                                                                                                                      font-weight: bold;
+                                                                                                                      cursor: pointer;
+                                                                                                                  }
+                                                                                                                  
+                                                                                                                  .--c--mytabs .--c--tab {
+                                                                                                                      font-family: "Roboto", sans-serif;
+                                                                                                                      margin-right: 20px;
+                                                                                                                      width: 100%;
+                                                                                                                      padding: 20px;
+                                                                                                                      /* background: var(--c--bacgroundcolor--ofitem); */
+                                                                                                                      order: 1;
+                                                                                                                      display: none;
+                                                                                                                  }
+                                                                                                                  
+                                                                                                                  .--c--mytabs input[type="radio"]:checked+label+.--c--tab {
+                                                                                                                      display: block;
+                                                                                                                  }
+                                                                                                                  
+                                                                                                                  .--c--mytabs input[type="radio"]:checked+label {
+                                                                                                                      border-bottom: 5px rgb(29, 28, 28) solid;
+                                                                                                                  }
+                                                                                                                  /* comment */
+                                                                                                                  
+                                                                                                                  .--c--comment {
+                                                                                                                      width: 40%;
+                                                                                                                      height: 250px;
+                                                                                                                      padding: 10px;
+                                                                                                                      background-color: var(--c--bacgroundcolor--ofitem);
+                                                                                                                      color: #192c35;
+                                                                                                                      outline: none;
+                                                                                                                      font-size: var(--c--fonsize--content--detail);
+                                                                                                                  }
+                                                                                                                  
+                                                                                                                  .--c--btn {
+                                                                                                                      width: 140px;
+                                                                                                                      height: 50px;
+                                                                                                                      align-items: center;
+                                                                                                                      background: var(--c--bacgroundcolo--btn--);
+                                                                                                                      border-radius: 6px;
+                                                                                                                      display: flex;
+                                                                                                                      color: white;
+                                                                                                                      justify-content: center;
+                                                                                                                      outline: none;
+                                                                                                                      cursor: pointer;
+                                                                                                                      margin-top: 15px;
+                                                                                                                  }
+                                                                                                                  
+                                                                                                                  .--c--content--detail {
+                                                                                                                      text-transform: none;
+                                                                                                                      margin-left: 10px;
+                                                                                                                  }
+                                                                                                                  
+                                                                                                                  .--c--content--user {
+                                                                                                                      font-size: var(--c--content-detail-);
+                                                                                                                      float: left;
+                                                                                                                      margin-left: 10px;
+                                                                                                                  }
+                                                                                                                  
+                                                                                                                  .--c--conten--date {
+                                                                                                                      float: right;
+                                                                                                                  }
+                                                                                                                  
+                                                                                                                  .--c--comment--content {
+                                                                                                                      margin-top: 10px;
+                                                                                                                  }
+                                                                                                                  
+                                                                                                                  .--c--content-detail- {
+                                                                                                                      background-color: var(--c--bacgroundcolor--content);
+                                                                                                                      padding: 20px;
+                                                                                                                  }
+                                                                                                                  
+                                                                                                                  .--c--mytabs {
+                                                                                                                      font-family: "Roboto", sans-serif;
+                                                                                                                      font-size: var(--c--fonsize--content--detail);
+                                                                                                                      display: flex;
+                                                                                                                      flex-wrap: wrap;
+                                                                                                                      width: 80%;
+                                                                                                                      margin: 0 auto;
+                                                                                                                      /* margin: 50px auto; */
+                                                                                                                  }
+                                                                                                                  
+                                                                                                                  .--c--mytabs input[type="radio"] {
+                                                                                                                      display: none;
+                                                                                                                  }
+                                                                                                                  
+                                                                                                                  .--c--mytabs label {
+                                                                                                                      padding: 25px 40px;
+                                                                                                                      font-weight: bold;
+                                                                                                                      cursor: pointer;
+                                                                                                                  }
+                                                                                                                  
+                                                                                                                  .--c--mytabs .--c--tab {
+                                                                                                                      font-family: "Roboto", sans-serif;
+                                                                                                                      margin-right: 20px;
+                                                                                                                      width: 100%;
+                                                                                                                      padding: 20px;
+                                                                                                                      /* background: var(--c--bacgroundcolor--ofitem); */
+                                                                                                                      order: 1;
+                                                                                                                      display: none;
+                                                                                                                  }
+                                                                                                                  
+                                                                                                                  .--c--mytabs input[type="radio"]:checked+label+.--c--tab {
+                                                                                                                      display: block;
+                                                                                                                  }
+                                                                                                                  
+                                                                                                                  .--c--mytabs input[type="radio"]:checked+label {
+                                                                                                                      border-bottom: 5px rgb(29, 28, 28) solid;
+                                                                                                                  }
+                                                                                                                  /* comment */
+                                                                                                                  
+                                                                                                                  .--c--comment {
+                                                                                                                      width: 50%;
+                                                                                                                      height: 150px;
+                                                                                                                      padding: 10px;
+                                                                                                                      background-color: var(--c--bacgroundcolor--ofitem);
+                                                                                                                      color: #192c35;
+                                                                                                                      outline: none;
+                                                                                                                      font-size: var(--c--fonsize--content--detail);
+                                                                                                                  }
+                                                                                                                  
+                                                                                                                  .--c--btn {
+                                                                                                                      width: 140px;
+                                                                                                                      height: 50px;
+                                                                                                                      align-items: center;
+                                                                                                                      background: var(--c--bacgroundcolo--btn--);
+                                                                                                                      border-radius: 6px;
+                                                                                                                      display: flex;
+                                                                                                                      color: white;
+                                                                                                                      justify-content: center;
+                                                                                                                      outline: none;
+                                                                                                                      cursor: pointer;
+                                                                                                                      margin-top: 15px;
+                                                                                                                  }
+                                                                                                                  
+                                                                                                                  .--c--content--detail {
+                                                                                                                      text-transform: none;
+                                                                                                                      margin-left: 10px;
+                                                                                                                  }
+                                                                                                                  
+                                                                                                                  .--c--content--user {
+                                                                                                                      font-size: var(--c--content-detail-);
+                                                                                                                      float: left;
+                                                                                                                      margin-left: 10px;
+                                                                                                                  }
+                                                                                                                  
+                                                                                                                  .--c--conten--date {
+                                                                                                                      float: right;
+                                                                                                                  }
+                                                                                                                  
+                                                                                                                  .--c--comment--content {
+                                                                                                                      margin-top: 10px;
+                                                                                                                  }
+                                                                                                                  
+                                                                                                                  .--c--content-detail- {
+                                                                                                                      background-color: var(--c--bacgroundcolor--content);
+                                                                                                                      padding: 20px;
+                                                                                                                  }
