@@ -12,7 +12,7 @@
 
 <body>
 
-
+    <hr color="#4ea685">
     <footer>
         <div class="c__container">
             <div class="left box">
