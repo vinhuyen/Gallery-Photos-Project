@@ -20,36 +20,40 @@
         <div id="c__gallery" class="c__container">
 
 
-            <h3 id="c__caption">Image Gallery</h3>
+            <h3 id="c__caption">Image </h3>
 
 
 
             <div id="c__gallery-box">
 
 
-                <p id="c__gallery-link" href="">
+                <div id="c__gallery-link" href="">
                     <img id="c__slide_0011" src="">
-                <div>
-                    <div id="c__gallery-count"><span id="count">1</span> of
-                        <span id="total"></span>
+
+
+
+
+                    <div id="c__gallery-icon">
+                        <button id="like" onclick="liked()">
+                            <i class="fa fa-thumbs-up"></i>
+                            <!-- <span class="icon">Like</span> -->
+                        </button>
+                        <button id="wishlist" onclick="wishlist()">
+                            <i class="fa fa-heart"></i>
+
+                            <!-- <span class="icon">Wishlist</span> -->
+                        </button>
+
                     </div>
-
                 </div>
-                <div id="c__gallery-icon">
-                    <button id="like" onclick="liked()">
-                        <i class="fa fa-thumbs-up"></i>
-                        <span class="icon">Like</span>
-                    </button>
-                    <button id="wishlist" onclick="wishlist()">
-                        <i class="fa fa-heart"></i>
-
-                        <span class="icon">Wishlist</span>
-                    </button>
-
-                </div>
-                </p>
 
             </div>
+            <!-- <div id="c__gallery-count">
+                <p><span id="count">1</span> /
+                    <span id="total"></span>
+                </p>
+            </div> -->
+
             <div class="c__gallery-thumbnails">
                 <div class="c__no-pad">
 
@@ -60,57 +64,66 @@
                     <img id="3" class="img-responsive" src="../../assets/image/CleaningtheImperialCitadel.jpg" alt="name
                             photo3" />
 
+
                 </div>
             </div>
 
 
         </div>
-        <hr />
+        <hr class="c__hr" color="4ea685">
         <div class="--c--mytabs">
+
             <input type="radio" id="tabsilver" name="mytabs" checked="checked">
             <label for="tabsilver">Reviews</label>
             <div class="--c--tab">
                 <div class="--c--comment--content">
-                    <p class="--c--content--user">
-                        <i class="fa fa-user-circle" aria-hidden="true"></i>
-                    <p class="--c--content--user" name="nameuser">Vinhliet</p>
-                    <p class="--c--conten--date" name="date">12/02/2021</p>
-                    <br>
-                    <br>
-                    <p class="--c--content--detail" name="content-user">Hang moi
-                    </p>
-                    </p>
+                    <div class="c__user_flexcoment">
+                        <p>
 
-                    <br>
-                    <hr>
+                            <i class="fa fa-user-circle" aria-hidden="true"></i>
+
+                        </p>
+                        <div class="c__user_coment">
+                            <p class="c__user_coment" name="nameuser">Vinhliet</p>
+
+                            <p class="--c--conten--date" name="date">April 15</p>
+                            <p class="--c--content--detail" name="content-user">CSS comments are not displayed in the
+                                browser,
+                                but they can help document your sourcomments are not displayed in the
+                                browser,
+                                but they can help document your sourcomments are not displayed in the
+                                browser,
+                                but they can help document your sourcomments are not displayed in the
+                                browser,
+                                but they can help document your sourcomments are not displayed in the
+                                browser,
+                                but they can help document your sourcomments are not displayed in the
+                                browser,
+                                but they can help document your source code.</p>
+
+                        </div>
+                    </div>
+                    <p class="c__delete_coment">Delete</p>
                 </div>
                 <div class="--c--comment--content">
-                    <p class="--c--content--user">
-                        <i class="fa fa-user-circle" aria-hidden="true"></i>
-                    <p class="--c--content--user" name="nameuser">congkpl</p>
-                    <p class="--c--conten--date" name="date">12/02/2021</p>
-                    <br>
-                    <br>
-                    <p class="--c--content--detail" name="content-user">Hang trung quoc</p>
-                    </p>
+                    <div class="c__user_flexcoment">
+                        <p>
 
-                    <br>
-                    <hr>
-                </div>
-                <div class="--c--comment--content">
-                    <p class="--c--content--user">
-                        <i class="fa fa-user-circle" aria-hidden="true"></i>
-                    <p class="--c--content--user" name="nameuser">thanhmillo</p>
-                    <p class="--c--conten--date" name="date">12/02/2021</p>
-                    <br>
-                    <br>
-                    <p class="--c--content--detail" name="content-user">Hang trung quoc</p>
-                    </p>
+                            <i class="fa fa-user-circle" aria-hidden="true"></i>
 
-                    <br>
-                    <hr>
+                        </p>
+                        <div class="c__user_coment">
+                            <p class="c__user_coment" name="nameuser">Vinhliet</p>
+
+                            <p class="--c--conten--date" name="date">April 15</p>
+                            <p class="--c--content--detail" name="content-user">CSS comments are not displayed in the
+                                browser,
+                                but they can help document your source code.</p>
+
+                        </div>
+                    </div>
+                    <p class="c__delete_coment">Delete</p>
                 </div>
-                <br>
                 <div class="--c--form--comment">
                     <form action="" method="POST">
                         <textarea name="Newcomment" class="--c--comment" id="prolackkd"
@@ -128,14 +141,19 @@
                 <div class="c--content--product--detail">
 
                     <p class="--c--content-detail-" name="description">
-                        In Hue, two days before the new year means busy markets and lots of colors. Tet Holiday has been
-                        quiet the past few years because of Covid-19 concerns, but the markets, when they are allowed to
+                        In Hue, two days before the new year means busy markets and lots of colors. Tet Holiday has
+                        been
+                        quiet the past few years because of Covid-19 concerns, but the markets, when they are
+                        allowed to
                         In Hue, two days before the new year means busy markets and
-                        lots of colors. Tet Holiday has been quiet the past few years because of Covid-19 concerns, but
-                        the markets, when they are allowed to open, are always packed. In Hue, two days before the new
+                        lots of colors. Tet Holiday has been quiet the past few years because of Covid-19 concerns,
+                        but
+                        the markets, when they are allowed to open, are always packed. In Hue, two days before the
+                        new
                         year means busy markets and lots of
                         colors. Tet Holiday has been quiet the past few years because of Covid-19 concerns, but the
-                        markets, when they are allowed to open, are always packed. In Hue, two days before the new year
+                        markets, when they are allowed to open, are always packed. In Hue, two days before the new
+                        year
                         means busy markets and lots of colors.
                         Tet Holiday has been
 

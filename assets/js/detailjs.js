@@ -1,18 +1,9 @@
 $(document).ready(function() {
-
-
-
-
-
-    $("#imgScale").css("color", "#4ea685");
     $("#c__caption").text($("img.fff").attr("alt"));
 
     var imagechange = $('img.fff').attr('src');
     $("#c__slide_0011").attr("src", imagechange);
 
-
-    // $("#c__gallery-img").css("background-image", "url(" + $("img#1").attr("src") + ")");
-    // Change image on selection
     $("#c__gallery img").click(function() {
         // Get current image source
         var captionText = $(this).attr("alt")
@@ -34,14 +25,13 @@ $(document).ready(function() {
     $("#total").text(gallerySize);
 
 
-    // $("#c__gallery-img").css("background-size", "contain");
 
 });
 
 
 
 
-
+// fontion like and ad wishlist
 
 function liked() {
     var element = document.getElementById("like");
@@ -53,6 +43,7 @@ function wishlist() {
     element.classList.toggle("wishlisted");
 }
 
+// read more read less
 class readMore {
     constructor() {
         this.content = '.--c--content-detail-';
@@ -78,7 +69,7 @@ class readMore {
 
         this.stateContent = contentToggle.innerHTML;
 
-        contentToggle.innerHTML = `${this.stateContent.substring(0, 500)}...`;
+        contentToggle.innerHTML = `${this.stateContent.substring(0, 100)}...`;
     }
 
     addEventListeners() {
@@ -96,7 +87,7 @@ class readMore {
 
         } else {
             targetEvent.setAttribute('aria-checked', 'true')
-            contentToggle.innerHTML = `${this.stateContent.substring(0, 500)}...`
+            contentToggle.innerHTML = `${this.stateContent.substring(0, 100)}...`
             this.buttonToggle.innerHTML = 'Show more'
         }
     }
