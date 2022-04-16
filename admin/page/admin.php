@@ -8,10 +8,13 @@
     <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous">
     </script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous">
     </script>
     <link rel="stylesheet" href="adminStyle.css">
     <title>Document</title>
@@ -41,13 +44,13 @@
             <li>
                 <a href="#" onclick="photoManager()">
                     <i class='bx bx-photo-album'></i>
-                    <span class="links_name">Photo</span>
+                    <span class="links_name">Post</span>
                 </a>
             </li>
             <li>
                 <a href="#" onclick="billManager()">
                     <i class='bx bx-pie-chart-alt-2'></i>
-                    <span class="links_name">Bill</span>
+                    <span class="links_name">photo</span>
                 </a>
             </li>
 
@@ -77,7 +80,8 @@
             </div>
             <ul class="navbar-nav ml-auto ml-md-0">
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" id="userDropdown" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-user fa-fw"></i></a>
+                    <a class="nav-link dropdown-toggle" id="userDropdown" href="#" role="button" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false"><i class="fas fa-user fa-fw"></i></a>
                     <div class="dropdown-menu dropdown-menu-right" aria-labelledby="userDropdown">
                         <a class="dropdown-item" href="#">Settings</a><a class="dropdown-item" href="#">Activity Log</a>
                         <div class="dropdown-divider"></div>
@@ -91,7 +95,7 @@
         </div>
         <div class="col-10">
             <div class="tab-pane" id="product">
-                <h3 class="display-4">Photos</h3>
+                <h3 class="display-4">Post</h3>
                 <hr style="border: 1px solid rgb(0, 0, 0); ">
                 <div class="bookroom">
                     <table class="table table-hover">
@@ -118,7 +122,8 @@
                             </tr>
                         </tbody>
                     </table>
-                    <button id="create" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                    <button id="create" type="button" class="btn btn-primary" data-bs-toggle="modal"
+                        data-bs-target="#staticBackdrop">
                         <i class=" fas fa-plus mr-2">Add post</i>
                     </button>
                 </div>
@@ -154,7 +159,7 @@
                 </div>
             </div>
             <div class="tab-pane active" id="bill">
-                <h3 class="display-4">Bill</h3>
+                <h3 class="display-4">Contact</h3>
                 <hr style="border: 1px solid rgb(0, 0, 0); ">
                 <div class="bill ">
                     <table class="table table-hover ">
@@ -188,7 +193,7 @@
             <div class="overview-boxes">
                 <div class="box" onclick="photoManager()">
                     <div class="right-side" onclick="photoManager()">
-                        <div class="box-topic" onclick="photoManager()">Photo</div>
+                        <div class="box-topic" onclick="photoManager()">Post</div>
                         <div id="totalBill" class="number"></div>
                         <div class="indicator">
                             <i class='bx bx-up-arrow-alt' onclick="photoManager()"></i>
@@ -212,7 +217,7 @@
                 </div>
                 <div class="box" onclick="billManager() ">
                     <div class="right-side" onclick="billManager() ">
-                        <div class="box-topic" onclick="billManager()">Bill</div>
+                        <div class="box-topic" onclick="billManager()">Contact</div>
                         <div id="turnover" class="number"></div>
                         <div class="indicator">
                             <i class='bx bx-up-arrow-alt' onclick="billManager()"></i>
@@ -228,7 +233,8 @@
 
         </div>
         <!-- ---------------------------------modal---------------------------------------------------------- -->
-        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+            aria-labelledby="staticBackdropLabel" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="modal-header">
@@ -249,8 +255,10 @@
                         </form>
                     </div>
                     <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" onclick="reset()" data-bs-dismiss="modal">cancel</button>
-                        <button type="button" class="btn btn-primary" id='add' onclick="add()" data-bs-dismiss="modal">Add</button>
+                        <button type="button" class="btn btn-secondary" onclick="reset()"
+                            data-bs-dismiss="modal">cancel</button>
+                        <button type="button" class="btn btn-primary" id='add' onclick="add()"
+                            data-bs-dismiss="modal">Add</button>
                     </div>
                 </div>
             </div>
