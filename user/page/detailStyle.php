@@ -20,7 +20,7 @@
         <div id="c__gallery" class="c__container">
 
 
-            <h3 id="c__caption">Image </h3>
+            <h3 id="c__caption"></h3>
 
 
 
@@ -57,12 +57,9 @@
             <div class="c__gallery-thumbnails">
                 <div class="c__no-pad">
 
-                    <img id="1" class="img-responsive fff" src="../../assets/image/CleaningtheImperialCitadel.jpg" alt="name
-                            photo1" />
-                    <img id="2" class="img-responsive" src="../../assets/image/AoDai.jpg" alt="name
-                            photo2" />
-                    <img id="3" class="img-responsive" src="../../assets/image/CleaningtheImperialCitadel.jpg" alt="name
-                            photo3" />
+                    <img id="1" class="img-responsive fff" src="../../assets/image/CleaningtheImperialCitadel.jpg" alt="Pagoda Aksps" />
+                    <img id="2" class="img-responsive" src="../../assets/image/AoDai.jpg" alt="Ao Dai in woman" />
+                    <img id="3" class="img-responsive" src="../../assets/image/CleaningtheImperialCitadel.jpg" alt="Pagoda Aksps" />
 
 
                 </div>

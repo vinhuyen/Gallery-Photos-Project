@@ -49,7 +49,7 @@ body {
     /* border: 1px solid #CCC; */
     width: 60%;
     margin: 24px auto;
-    box-shadow: 1px 2px 32px var(--c__color_btn);
+    /* box-shadow: 1px 2px 32px var(--c__color_btn); */
 }
 
 #c__caption {
@@ -153,6 +153,8 @@ body {
 #c__gallery-link img {
     width: 100%;
     transition: all 1s;
+    height: 70vh;
+    object-fit: cover;
 }
 
 #c__gallery-link:hover img {
@@ -162,6 +164,7 @@ body {
 
 #c__gallery-link {
     overflow: hidden;
+    height: 70vh;
 }
 
 .c__gallery-thumbnails {
@@ -291,7 +294,7 @@ p.c__user_coment {
 }
 
 p.--c--content-detail- {
-    box-shadow: 1px 3px 6px #646363f2;
+    box-shadow: 0px 3px 1px #646363f2;
     padding: 10px;
 }
 
@@ -344,6 +347,6 @@ p.c__delete_coment:hover {
     .--c--mytabs,
     .c__container_detail,
     #c__gallery-box {
-        width: 98%;
+        width: 95%;
     }
 }
