@@ -57,9 +57,11 @@
             <div class="c__gallery-thumbnails">
                 <div class="c__no-pad">
 
-                    <img id="1" class="img-responsive fff" src="../../assets/image/CleaningtheImperialCitadel.jpg" alt="Pagoda Aksps" />
+                    <img id="1" class="img-responsive fff" src="../../assets/image/CleaningtheImperialCitadel.jpg"
+                        alt="Pagoda Aksps" />
                     <img id="2" class="img-responsive" src="../../assets/image/AoDai.jpg" alt="Ao Dai in woman" />
-                    <img id="3" class="img-responsive" src="../../assets/image/CleaningtheImperialCitadel.jpg" alt="Pagoda Aksps" />
+                    <img id="3" class="img-responsive" src="../../assets/image/CleaningtheImperialCitadel.jpg"
+                        alt="Pagoda Aksps" />
 
 
                 </div>
@@ -73,53 +75,57 @@
             <input type="radio" id="tabsilver" name="mytabs" checked="checked">
             <label for="tabsilver">Reviews</label>
             <div class="--c--tab">
-                <div class="--c--comment--content">
-                    <div class="c__user_flexcoment">
-                        <p>
+                <div class="c__coment">
+                    <div class="--c--comment--content">
+                        <div class="c__user_flexcoment">
+                            <p>
 
-                            <i class="fa fa-user-circle" aria-hidden="true"></i>
+                                <i class="fa fa-user-circle" aria-hidden="true"></i>
 
-                        </p>
-                        <div class="c__user_coment">
-                            <p class="c__user_coment" name="nameuser">Vinhliet</p>
+                            </p>
+                            <div class="c__user_coment">
+                                <p class="c__user_coment" name="nameuser">Vinhliet</p>
 
-                            <p class="--c--conten--date" name="date">April 15</p>
-                            <p class="--c--content--detail" name="content-user">CSS comments are not displayed in the
-                                browser,
-                                but they can help document your sourcomments are not displayed in the
-                                browser,
-                                but they can help document your sourcomments are not displayed in the
-                                browser,
-                                but they can help document your sourcomments are not displayed in the
-                                browser,
-                                but they can help document your sourcomments are not displayed in the
-                                browser,
-                                but they can help document your sourcomments are not displayed in the
-                                browser,
-                                but they can help document your source code.</p>
+                                <p class="--c--conten--date" name="date">April 15</p>
+                                <p class="--c--content--detail" name="content-user">CSS comments are not displayed in
+                                    the
+                                    browser,
+                                    but they can help document your sourcomments are not displayed in the
+                                    browser,
+                                    but they can help document your sourcomments are not displayed in the
+                                    browser,
+                                    but they can help document your sourcomments are not displayed in the
+                                    browser,
+                                    but they can help document your sourcomments are not displayed in the
+                                    browser,
+                                    but they can help document your sourcomments are not displayed in the
+                                    browser,
+                                    but they can help document your source code.</p>
 
+                            </div>
                         </div>
+                        <p class="c__delete_coment">Delete</p>
                     </div>
-                    <p class="c__delete_coment">Delete</p>
-                </div>
-                <div class="--c--comment--content">
-                    <div class="c__user_flexcoment">
-                        <p>
+                    <div class="--c--comment--content">
+                        <div class="c__user_flexcoment">
+                            <p>
 
-                            <i class="fa fa-user-circle" aria-hidden="true"></i>
+                                <i class="fa fa-user-circle" aria-hidden="true"></i>
 
-                        </p>
-                        <div class="c__user_coment">
-                            <p class="c__user_coment" name="nameuser">Vinhliet</p>
+                            </p>
+                            <div class="c__user_coment">
+                                <p class="c__user_coment" name="nameuser">Vinhliet</p>
 
-                            <p class="--c--conten--date" name="date">April 15</p>
-                            <p class="--c--content--detail" name="content-user">CSS comments are not displayed in the
-                                browser,
-                                but they can help document your source code.</p>
+                                <p class="--c--conten--date" name="date">April 15</p>
+                                <p class="--c--content--detail" name="content-user">CSS comments are not displayed in
+                                    the
+                                    browser,
+                                    but they can help document your source code.</p>
 
+                            </div>
                         </div>
+                        <p class="c__delete_coment">Delete</p>
                     </div>
-                    <p class="c__delete_coment">Delete</p>
                 </div>
                 <div class="--c--form--comment">
                     <form action="" method="POST">
